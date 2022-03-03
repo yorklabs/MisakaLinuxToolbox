@@ -12,7 +12,7 @@
 wget -qO- https://raw.githubusercontent.com/Misaka-blog/MisakaLinuxToolbox/master/MisakaToolbox.sh | bash
 ```
 
-快捷方式 `bash MisakaToolbox.sh`
+二次执行时可直接使用快捷方式 `bash MisakaToolbox.sh`
 
 ## 赞助我们
 
