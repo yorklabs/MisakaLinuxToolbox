@@ -9,7 +9,7 @@
 ## 使用方法
 
 ```shell
-wget -qO- https://raw.githubusercontent.com/Misaka-blog/MisakaLinuxToolbox/master/MisakaToolbox.sh | bash
+wget https://raw.githubusercontent.com/Misaka-blog/MisakaLinuxToolbox/master/MisakaToolbox.sh && chmod 777 MisakaToolbox.sh && ./MisakaToolbox.sh
 ```
 
 二次执行时可直接使用快捷方式 `bash MisakaToolbox.sh`
