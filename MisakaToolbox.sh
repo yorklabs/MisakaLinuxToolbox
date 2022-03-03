@@ -308,6 +308,7 @@ menu() {
 	echo "                           "
 	red "=================================="
 	echo "                            "
+	wget https://raw.githubusercontent.com/Misaka-blog/MisakaLinuxToolbox/master/MisakaToolbox.sh && chmod +x MisakaToolbox.sh && cp MisakaToolbox.sh /bin/MisakaToolbox.sh 
 	green "当前工具箱版本：v$ver"
 	green "更新日志：$changeLog"
 	green "今日运行次数：$TODAY 总共运行次数：$TOTAL"
@@ -330,6 +331,7 @@ menu() {
 	[ ${virt} == "kvm" ] && echo "6. VPS DD系统"
 	echo "                            "
 	echo "9. 更新脚本"
+	echo "10. 卸载脚本"
 	echo "0. 退出脚本"
 	echo "                            "
 	read -p "请输入选项:" menuNumberInput
@@ -341,7 +343,8 @@ menu() {
         5) page5 ;;
         6) wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -UI_Options ;;
         9) wget -N https://gitlab.com/misakano7545/MisakaLinuxToolbox/-/raw/master/MisakaToolbox.sh && chmod -R 777 MisakaToolbox.sh && bash MisakaToolbox.sh ;;
-        0) exit 0 ;;
+        10) rm /bin/MisakaLinuxToolbox.sh && exit 0
+	0) exit 0 ;;
 	esac
 }
 
