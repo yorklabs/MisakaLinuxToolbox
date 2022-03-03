@@ -312,6 +312,7 @@ menu() {
 	green "当前工具箱版本：v$ver"
 	green "更新日志：$changeLog"
 	green "今日运行次数：$TODAY 总共运行次数：$TOTAL"
+	green "快捷方式已创建！后续执行可以使用：bash MisakaToolbox.sh"
 	echo "                            "
 	red "检测到VPS信息如下："
 	yellow "处理器架构：$arch"
