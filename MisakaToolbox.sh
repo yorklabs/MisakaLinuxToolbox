@@ -344,7 +344,7 @@ menu() {
         5) page5 ;;
         6) wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh -UI_Options ;;
         9) wget -N https://gitlab.com/misakano7545/MisakaLinuxToolbox/-/raw/master/MisakaToolbox.sh && chmod -R 777 MisakaToolbox.sh && bash MisakaToolbox.sh ;;
-        10) rm /bin/MisakaLinuxToolbox.sh && exit 0
+        10) rm /bin/MisakaLinuxToolbox.sh && exit 0 ;;
 	0) exit 0 ;;
 	esac
 }
